@@ -1,0 +1,21 @@
+.card{
+    font-size: 15px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.carddetails{
+    font-size: 20px;
+    color: blue;
+    font-style: italic;
+    /* margin-left: 30rem; */
+}
+/* @media only screen and (max-width: 600px) {
+    .carddetails {
+      margin-left: 0px;
+      text-align: center;
+    }
+  } */
+  
+  

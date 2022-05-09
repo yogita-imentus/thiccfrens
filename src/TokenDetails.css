@@ -1,0 +1,40 @@
+
+/* .icon{
+    justify-content: space-between;
+    font-size: 20px;
+} */
+/* .dropdown{
+    width:10rem;
+     height: 2rem;
+     border:1px black;
+} */
+.btn_containers{
+    display: flex;
+    /* justify-content:space-around; */
+    margin-bottom: 20px;
+    margin-left: 30px;
+    
+ 
+}
+/* .icon{
+    
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-bottom: 20px;
+} */
+/* .price{
+    font-size: 20px;
+}
+.details{
+font-size: 20px;
+} */
+.card{
+    /* margin-left: 30px; */
+    /* margin-right: 30px; */
+    
+}
+/* .icon1{
+    display: flex;
+    font-size: 15px;
+} */

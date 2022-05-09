@@ -1,0 +1,243 @@
+* {
+
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-style: arial;
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+
+}
+
+.container {
+    display: grid;
+    /* height: 100vh; */
+    /* width: 100%; */
+    grid-template-columns: auto auto;
+    grid-template-rows: 0.3fr 3fr;
+    /* background-image: url(nft2.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin: 20px 0px; */
+    /* grid-gap:20px; */
+}
+
+.mainSection {
+    background-image: url(home.gif);
+    background-repeat: no-repeat;
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+    background-size: 100vw 450px;
+}
+
+.header {
+    color: aliceblue;
+    font-size: 15px;
+    font-style: oblique;
+    margin: 150px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagepart {
+    height: 100vh;
+    font-size: 10px;
+
+    align-items: flex-end;
+}
+
+.x1 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    /* width:5rem; */
+    /* height:2rem; */
+    align-items: center;
+
+}
+
+/* .btn1{
+    display: flex;
+    justify-content: center;
+    width:10rem;
+    height:3rem;
+    border-radius: 20px;
+    align-items: center;
+    font-size: 15px;
+    color:black;
+background-color: rgb(64, 34, 238);
+  */
+
+.card {
+    margin: 30px 40px;
+
+}
+
+.btn {
+    display: flex;
+    /* margin-top: 20px; */
+    /* margin-left: 50px; */
+}
+
+.button {
+    display: flex;
+}
+
+.card-text {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+/* .nav{
+   align-items: center; 
+   display: flex;
+   margin-left: 20px;
+   color: aliceblue;
+} */
+/* .dropdown{
+    color: aliceblue;
+    font-size: 20px;
+align-items: center;
+margin-bottom: 15px;
+}
+.dropdown-content{
+    border-radius: 20px;
+    color:black;
+    
+} */
+.link {
+    border-radius: 10px;
+}
+
+/* .Navbar--main .Navbar--left {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding-right: 16px;
+} */
+/* .btn{
+    border: none;
+} */
+.nav-item {
+    justify-content: space-evenly;
+}
+
+/* .container-fluid{
+    justify-content: space-evenly !important;
+} */
+.navoption {
+    /* justify-content: space-evenly;
+ */
+
+}
+
+.card-body {
+    background-color: rgb(225, 235, 235) !important;
+    font-style: italic;
+}
+.countdown{
+    /* display:grid; */
+    background-color: rgb(55, 55, 169) !important;
+
+}
+.dhms{
+    background-color: rgb(19, 17, 131);
+    color: aliceblue;
+}
+.counts{
+    background-color: rgb(170, 242, 170);
+}
+.ctnr{
+    /* background-color: rgb(19, 17, 131); */
+    width:80%;
+    /* padding-left: 50%; */
+    background-color: rgb(165, 243, 217);
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+.allinfo{
+    color: rgb(9, 12, 15);
+    width: 100%;
+    height: 85%;
+    background-color: rgb(184, 232, 239);
+margin-left: 0rem;
+
+}
+.myn{
+    /* width: 40%; */
+    margin-bottom:2rem ;
+}
+.spm{
+    
+}
+.ndcs{
+    margin-left: 2rem;
+}
+.spnr{
+    display: flex;
+    margin-left: 35rem;
+    margin-top: 17rem;
+}
+.dc{
+    /* background-color: rgb(184, 232, 239);; */
+    margin-top: 2rem;
+     
+}
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }

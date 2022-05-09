@@ -1,0 +1,13 @@
+.clctn{
+    display: flex;
+    width: 50%;
+    height: 70%;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    background-color: beige;
+}
+.vtc{
+    width: 30%;
+    margin-left: 13rem;
+    margin-bottom: 2rem;
+}
