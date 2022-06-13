@@ -152,7 +152,7 @@ for(let k = 1; k<=arr;k++)
                 }) : ''}</td>
                 <td>  {m ? m[k + 2].map((l) => {
                   return (<>
-                    {l.toString()}
+                    {l.toString()/1000000000}
                     <br />
                   </>)
                 }) : ''}</td>

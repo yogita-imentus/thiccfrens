@@ -4,7 +4,8 @@
   text-align: center;
 }
 .home img{
-  width: 300px !important;
+  /* margin-top: 1rem; */
+  width: 170px !important;
   height: 300px !important;
 }
 .App-logo {
